@@ -11,7 +11,7 @@ body {
  font-size: 90px;
  color: #b3cccc;
  font-weight: 100;
- line-height: 10px;
+ line-height: 0;
 }
 .todo-book {
 	background-color: white;
@@ -78,18 +78,20 @@ li {
   border-bottom: solid #eeeef0 2px;
 }
 .new-task {
- border: none;
- padding: 17px 0;
- margin-left: 8px;
- font-size: 20px;
- font-style: italic;
-}
+     border: none;
+    padding: 22px 2px 20px 60px;
+    color: #d1d1e0;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+  }
 
 .add-button {
   display: inline-block;
-  margin: 15px;
-  color: #d1d1e0;
-}
+    margin: 25px 21px;
+    
+    position: absolute;
+    }
 
 .close-button {
   float: right;
@@ -198,10 +200,10 @@ button:hover{
 
 .last-task {
   border: solid 1px #ffe6e6;
-  padding: 15px 0px 15px 15px;
-  margin-left: 55px;
-  font-size: 20px;
-  width: 456px; 
+    padding: 18px 0px 18px 15px;
+    margin: 0px 0px 0px 50px;
+    font-size: 20px;
+    width: 456px;
 }
 
 .items-left {
@@ -217,6 +219,7 @@ button {
   background: none;
   border: none;
 }
+
 .navigation-button {
  border: 1px solid transparent;
  padding: 3px;
